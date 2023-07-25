@@ -6,6 +6,7 @@
   font-family: "Open Sans", sans-serif;
   display: grid;
   place-items: center;
+  background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
 }
 body {
   margin: 0%;

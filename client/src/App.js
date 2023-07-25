@@ -26,7 +26,8 @@ function App() {
   }
 
   return (
-    <div className="App"> Welcome!
+    <div className="App"> <h1>Welcome to my instant messenger! </h1>
+      <h2> ⚓By Dan Moreira 🔥 </h2>
       {!showChat ? (   
       <div className = "joinChatContainer">
         <h2>😎🖐</h2>
