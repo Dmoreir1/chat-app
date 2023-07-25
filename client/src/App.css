@@ -142,7 +142,7 @@ body {
   margin-right: 5px;
 }
 
-.message-meta #author {
+.message-meta #username {
   margin-left: 10px;
   font-weight: bold;
 }
@@ -172,7 +172,7 @@ body {
 }
 
 .chat-window .chat-footer button {
-  border: 0;
+  /* border: 0;
   display: grid;
   place-items: center;
   cursor: pointer;
@@ -181,11 +181,17 @@ body {
   background: transparent;
   outline: none;
   font-size: 25px;
-  color: lightgray;
+  color: lightgray; */
+  box-shadow: inset 0 0 0 0 #700e13;
+  color: #0f1377;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 .chat-window .chat-footer button:hover {
-  color: #43a047;
+  box-shadow: inset 100px 0 0 0 #cb1c19;
+  color: white;
 }
 .hide {
   opacity: 0 !important;
